@@ -5,14 +5,13 @@ import {aboutMe, education} from '../data/resumeData'
 const About = () => {
   return (
 
-    <section id = "about" className='py-20 bg-grey-950'>
+    <section id = "about" className='py-20 bg-black'>
     <div className='max-w-5xl mx-auto px-6'>
       
       <motion.h2 
         initial={{opacity : 0, y : 30}}
         whileInView={{opacity : 1, y : 0}}
-        transition={{duration : 0.5}}
-        clasName = "text-3xl font-bold text-center mb-10">About Me</motion.h2>
+        className = "text-3xl font-bold text-center mb-10">About Me</motion.h2>
 
       <p className='text-gray-400 text-center max-w-3xl mx-auto'>{aboutMe}</p>
 
@@ -21,7 +20,7 @@ const About = () => {
             <motion.div 
                 key={index}
                 whileHover={{scale : 1.03}}
-                clasName = "bg-black border border-gray-800 p-6 rounded-xl">
+                className = "bg-black border border-gray-800 p-6 rounded-xl">
 
                     <h3 className='font-semibold text-lg'>{edu.degree}</h3>
                     <p className='text-gray-400'>{edu.institute}</p>
