@@ -61,12 +61,40 @@ export const experience = [
 ]
 
 export const projects = [
-    {
-        title : "Library Management System",
-        description : "A web-based application to manage books and users efficiently with full CRUD functionality",
-        tech : ["Python", "Django", "HTML", "CSS"],
-    },
+  {
+    id: "library-management",
+    title: "Library Management System",
+    shortDescription:
+      "A web-based application to manage books and users efficiently.",
+
+    overview:
+      "The Library Management System is a full-stack web application designed to automate library operations such as managing books, users, and transactions.",
+
+    features: [
+      "User authentication and authorization",
+      "Add, update, delete, and search books",
+      "Issue and return books",
+      "Admin dashboard for management",
+    ],
+
+    tech: ["Python", "Django", "HTML", "CSS", "SQLite"],
+
+    github: "https://github.com/rushikeshkashid1607/Library_System",
+
+    live: "",
+
+    images: [
+        "src/data/projects/library/landing.jpeg",
+      "src/data/projects/library/register.jpeg",
+      "src/data/projects/library/login.jpeg",
+      "src/data/projects/library/after_login.jpeg",
+      "src/data/projects/library/books.jpeg",      
+      "src/data/projects/library/default_admin_pannel.jpeg",
+      "src/data/projects/library/view_books.jpeg"
+    ],
+  },
 ]
+
 
 export const certifications = [
     "TATA Data Visualisation : Empowering Buisness with Effective Insights",
